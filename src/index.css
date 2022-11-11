@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-carousel .slick-dots {
+    margin-right: 0 !important;
+    margin-left: 0% !important;
+    padding-left: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto
+}
+
+.Detail {
+    font-family: sans-serif;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.detailMovie .box1 {
+    margin: 120px auto 0 auto;
+    background: rgba(16, 18, 27, 0.4);
+    border: 2px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    color: aliceblue;
+}
+
+.detailMovie .box1 p {
+    padding: 5px 10px;
+}
+
+.detailMovie .box2 {
+    background: rgba(16, 18, 27, 0.4);
+    border: 2px solid white;
+    border-radius: 10px;
+}
