@@ -33,8 +33,6 @@ const Container = styled.div`
   .main-content{
     flex: 1;
   }
-  .Footer{
 
-  }
  }
 `
